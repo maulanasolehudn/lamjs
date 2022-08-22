@@ -1,0 +1,48 @@
+.body {
+    content: counter(bo);
+}
+    .bohlam{
+        background: #000;
+        padding: 40px 20px;
+        width: 80px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        gap: 40px;
+        border-radius: 10px;
+    }
+
+    .container {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(5, 1fr);
+        width: max-content;
+    }
+
+    .circle {
+        border-radius: 50%;
+    }
+
+    .light {
+        height: 80px;
+        width: 80px;
+        background: rgb(120, 128, 8);
+    }
+
+
+    .light.on {
+        background: rgb(218, 255, 6);
+    }
+
+
+    .button {
+        height: 50px;
+        width: 50px;
+        background: rgb(56, 7, 13);
+        border: none;
+       
+    }
+    .button:active {
+        background: rgb(102, 1, 1);
+    }
