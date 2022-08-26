@@ -1,6 +1,4 @@
-.body {
-    content: counter(bo);
-}
+
     .bohlam{
         background: #000;
         padding: 40px 20px;
@@ -12,11 +10,12 @@
         gap: 40px;
         border-radius: 10px;
     }
+    
 
     .container {
         display: grid;
         gap: 30px;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(16, 1fr);
         width: max-content;
     }
 
@@ -24,15 +23,15 @@
         border-radius: 50%;
     }
 
-    .light {
+    .green {
         height: 80px;
         width: 80px;
-        background: rgb(120, 128, 8);
+        background: rgb(14, 56, 3);
     }
 
 
-    .light.on {
-        background: rgb(218, 255, 6);
+    .green.on {
+        background: rgb(38, 206, 4);
     }
 
 
@@ -41,8 +40,16 @@
         width: 50px;
         background: rgb(56, 7, 13);
         border: none;
-       
+
     }
     .button:active {
         background: rgb(102, 1, 1);
+    } 
+    .blue {
+        height: 80px;
+        width: 80px;
+        background: rgb(8, 3, 56);
+    }
+    .blue.on {
+        background: rgb(23, 3, 207);
     }
