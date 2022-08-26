@@ -1,1 +1,1 @@
-# lampujs
+# lamjs
