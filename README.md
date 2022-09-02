@@ -1,1 +1,2 @@
 # lamjs
+# lampu3warna

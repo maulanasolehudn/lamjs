@@ -53,3 +53,11 @@
     .blue.on {
         background: rgb(23, 3, 207);
     }
+    .red {
+        height: 80px;
+        width: 80px;
+        background: rgb(124, 1, 1);
+    }
+    .red.on {
+        background: rgb(255, 0, 0);
+    }
